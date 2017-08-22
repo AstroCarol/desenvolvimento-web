@@ -6,46 +6,23 @@ public class Calc
         
         int a;
         int b;
-        public void setSoma(int a, int b)
-        {
-            this.a = a;
-            this.b = b;
-        }
  
-        public int getSoma()
+        public static int soma(int a, int b)
         {
             return  (a + b);
         }
-      
-        public void setSub(int a, int b)
-        {
-            this.a = a;
-            this.b = b;
-        }
         
-        public int getSub()
+        public static int sub(int a, int b)
         {
             return (a - b);
         }
-        
-        public void setMult(int a, int b)
-        {
-            this.a = a;
-            this.b = b;
-        }
     
-        public int getMult()
+        public static int mult(int a, int b)
         {
             return  (a * b);
         }
         
-        public void setDiv(int a, int b)
-        {
-            this.a = a;
-            this.b = b;
-        }
-        
-        public int getDiv()
+        public static int div(int a, int b)
         {
             return  (a / b);
         }
