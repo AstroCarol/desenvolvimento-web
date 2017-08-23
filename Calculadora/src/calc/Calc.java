@@ -3,9 +3,6 @@ package calc;
 public class Calc
     {
         public Calc(){}
-        
-        int a;
-        int b;
  
         public static int soma(int a, int b)
         {
