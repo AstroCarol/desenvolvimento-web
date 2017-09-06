@@ -1,6 +1,6 @@
 package agenda;
 
-public class PessoaFisica 
+public class PessoaFisica extends Pessoa
 {
     private String cpf;
 

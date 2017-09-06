@@ -1,9 +1,23 @@
 package agenda;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class Controladora extends Pessoa 
+public class Controladora 
 {
-    List agenda = new ArrayList();
+    ArrayList agenda = new ArrayList();
+    
+    public void Adicionar(Pessoa p)
+    {
+        agenda.add(p);
+    }
+    
+    public void Remover(int p)
+    {
+        agenda.remove(p);
+    }
+    
+    public ArrayList Listar()
+    {
+        return agenda;
+    }
 }
